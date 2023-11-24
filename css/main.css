@@ -1,0 +1,70 @@
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 0px;
+    margin: 0px;
+    max-height: 100vh;
+  }
+
+  .main {
+    height: 100%;
+  }
+
+  .row {
+    height: 100vh;
+  }
+
+  .col-6 {
+    height: 100vh;
+    display: flex;
+    object-fit: contain;
+
+  }
+
+
+
+  .left-box {
+    background-color: #282828;
+    height: 100%;
+    padding: 100px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    width:100%;
+  }
+
+  .music-heading {
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .select-song-heading {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+  }
+
+  .left-box form {
+    width: 400px;
+  }
+
+  .btn.btn-primary.btn-lg {
+    background-color: #5E51F7;
+    margin-top: 30px;
+    font-family: poppins;
+    font-size: 16px;
+  }
+</style>
